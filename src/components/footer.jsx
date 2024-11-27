@@ -24,7 +24,7 @@ export default function Footer (){
               </ul>
             </div>
             <div className="footer-section">
-              <h4>Scale</h4>
+              <h4 className="header">Scale</h4>
               <ul>
                 <li>Growing Startups</li>
                 <li>Enterprise</li>
@@ -32,12 +32,12 @@ export default function Footer (){
               </ul>
             </div>
             <div className="footer-section">
-              <h4>Subscribe to our Newsletter</h4>
+              <h4 className="header">Subscribe to our Newsletter</h4>
               <p>
                 We built Norood for Businesses of all shapes and sizes, with
                 varied needs.
               </p>
-              <form>
+              <form className="subscription">
                 <input type="email" placeholder="Enter your email" /> 
                 <div>
 
