@@ -25,6 +25,7 @@
   display: none;
 }
 .show ul {
+  align-items: center;
   display: flex;
   position: absolute;
   background-color: rgb(255, 255, 255);
@@ -48,6 +49,11 @@
 
 .nav-links ul li .button{
   color: white;
+}
+
+.show ul li .button{
+  color: black;
+  background-color: white;
 }
 
 .nav-links ul li a {
