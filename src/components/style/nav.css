@@ -42,3 +42,14 @@
 .hero_nav {
   background: #832498;
 }
+@media(width <= 800px){
+  .nav-links ul{
+    top: 50px;
+    right: 10px;
+    width: 150px;
+    display: block;
+    position: absolute;
+    background: #333;
+    border-radius: .2rem;
+  }
+}
