@@ -32,8 +32,8 @@
   padding: 20px;
   border-radius: 5px;
   gap: 10px;
-  bottom: -247px;
-  left: 10px;
+  bottom: -300px;
+  right: 10px;
 }
 
 .nav-links ul li {
@@ -46,7 +46,9 @@
   background-color: #eee;
 }
 
-
+.nav-links ul li .button{
+  color: white;
+}
 
 .nav-links ul li a {
   color: #000;
