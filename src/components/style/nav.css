@@ -46,7 +46,6 @@
 .nav-links ul li:hover {
   background-color: #eee;
 }
-
 .nav-links ul li .button{
   color: white;
 }
@@ -64,19 +63,6 @@
 .hero_nav {
   background: #832498;
 }
-<<<<<<< HEAD
-@media(width <= 800px){
-  .nav-links ul{
-    top: 50px;
-    right: 10px;
-    width: 150px;
-    display: block;
-    position: absolute;
-    background: #333;
-    border-radius: .2rem;
-  }
-}
-=======
 .logo-container {
   display: flex;
 }
@@ -88,8 +74,8 @@ nav svg {
 
 nav svg:hover + menu {
   display: flex;
-}
-@media (min-width:768px){
+} 
+@media (min-width:850px){
   nav svg {
     display: none;
   }
@@ -100,6 +86,5 @@ nav svg:hover + menu {
   }
   .nav-links ul li{
    padding:  10px 38px;
->>>>>>> be49b23aad87cdcae1804c70e4e75466ecc503d8
   }
 }

@@ -28,7 +28,7 @@ export default function Nav() {
               <a href="#">About Us</a>
             </li>
             <li>
-            <Button text={"Sign Up"} />
+            <Button text={"Sign Up"} className="sign_up"/>
             </li>
           </ul>
         </menu>

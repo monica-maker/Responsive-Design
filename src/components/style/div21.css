@@ -1,0 +1,159 @@
+.div21 {
+    
+    margin: .5rem;
+    border-radius: 10px;
+    background-color: #ede5f3;
+    box-shadow: 2px 4px 8px #00000012;
+    gap: 10rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.image2 {
+    position: relative;
+    /* width: 50%;  */
+    margin-right: 20px;
+}
+.gent{
+    background-color: #fff;
+    border-radius: 10px;
+    height: auto;
+    width: 20rem;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #00000033;
+}
+.text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 10%;
+    left: -25%;
+    background: #6c07e8e9;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.text2 h1 p{
+    
+    margin-top: .8rem;
+
+}
+
+.Pp{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.Pp img{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.info2 {
+    width: 30rem;
+    padding: 20px;
+}
+
+.info2 h3 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info2 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.info2 button {
+    font-size: 15px;
+    padding: 10px 24px;
+    background-color: #8000ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.info2 button:hover {
+    background-color: #a02eec;
+} 
+@media (width <= 500px){
+    .text2 {
+        top: 10%;
+        left: 90%;
+        width: 8rem;
+    }
+    .gent{
+        height: auto;
+        width: 14rem;
+    }
+    .div21{
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+    .info2 h3 {
+        font-size: 42px;
+        margin-bottom: 10px;
+        color: #0f0e0e;
+    }
+    .info2 p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        
+    }
+    .info2 button {
+        width: 8rem;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+@media (width <= 900px){
+    .image2{
+        width: 50%;
+    }
+    .info2 button {
+        width: 10rem;
+        font-size: 18px;
+        padding: 10px 20px;
+    } 
+    .info2 p {
+        font-size: 20px;
+        
+    }
+    .info2 {
+        padding: .4rem;
+
+    }
+    .text2 p{
+        font-size: 25px;
+    
+    }
+}
+@media (width <= 1500px){
+    .info2 button {
+        width: 10rem;
+        font-size: 20px;
+        padding: 10px 20px;
+    } 
+}

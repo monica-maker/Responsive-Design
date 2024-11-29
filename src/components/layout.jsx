@@ -2,7 +2,7 @@ import "/src/components/style/layout.css";
 import Nav from "./nav.jsx";
 import Body from "./body.jsx";
 import Footer from "./footer.jsx";
-import HomeHero from "./HomeHero.jsx";
+import HomeHero from "./Header.jsx";
 
 export default function Layout() {
   return (
